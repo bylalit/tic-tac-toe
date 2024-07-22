@@ -37,8 +37,8 @@ const enableBoxes = () => {
 };
 
 
-const showWinner = (posit1) => {
-    para.innerText = "Winner";
+const showWinner = (winner) => {
+    para.innerText = `Winner is ${winner}`;
     disableBoxes();
     displayShow.classList.remove("hide");
 }
