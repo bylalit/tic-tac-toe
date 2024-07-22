@@ -91,6 +91,14 @@ h2{
     #reset-btn{
         margin-top: 6rem;
     }
+    #winner{
+        font-size: 3rem;
+        color: white;
+    }
+    
+    #new-btn{
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width:380px) {
