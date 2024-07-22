@@ -21,20 +21,20 @@ let winPattens = [
 const resetBtn = () =>{
     enableBoxes();
     displayShow.classList.add("hide");
-}
+};
 
 const disableBoxes = () =>{
     for(box of boxes){
         box.disabled = true;
     }
-}
+};
 
 const enableBoxes = () => {
     for(box of boxes){
         box.disabled = false;
         box.innerText = "";
     }
-}
+};
 
 
 const showWinner = (posit1) => {
@@ -60,8 +60,8 @@ const checkWinner = () => {
                 showWinner(posit1);
             }
         } 
-    }
-}
+    };
+};
 
 
 boxes.forEach((box) => {

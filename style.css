@@ -76,3 +76,26 @@ h2{
 .hide{
     display: none;
 }
+
+@media screen and (max-width:450px) {
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    h2{
+        font-size: 3rem;
+        color: white;
+        padding: 4rem 0;
+        text-align: center;
+    }
+    #reset-btn{
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .box{
+        width: 80px;
+        height: 80px;
+    }
+}
